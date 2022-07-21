@@ -18,8 +18,8 @@ const Home: NextPage = () => {
           <link rel="icon" href="favicon.ico"></link>
         </Head>
 
-        <div className="h-screen w-full flex items-center justify-center flex-wrap mb-32">
-          <div className="flex-grow flex justify-center items-center flex-nowrap mx-20 w-full text-custom text-mint">
+        <div className="h-screen w-full flex items-center justify-center flex-wrap mb-20">
+          <div className="flex-grow flex justify-center items-center flex-nowrap mx-20 w-full text-custom text-logo">
             ELDERPENGUINS
           </div>
 
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="mt-64 mb-12 md:mb-64 px-10 space-y-[32px] max-w-[1128px] m-auto lg:flex flex-row md:space-x-[50px] flex justify-between items-center flex-wrap md:flex-nowrap">
+        <div className="mt-24 mb-10 md:mb-24 px-10 space-y-[32px] max-w-[1128px] m-auto lg:flex flex-row md:space-x-[50px] flex justify-between items-center flex-wrap md:flex-nowrap">
           <div className="space-y-[24px] flex flex-col justify-center w-full">
             <h2 className="text-title text-mint font-daydream text-custom text-mint">
               A collection built with utility &#38; community at the foundation
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-        <div className="pb-[20px] md:pb-[100px] pt-[100px] flex items-center justify-center">
+        <div className="pb-[20px] md:pb-[100px] flex items-center justify-center">
           <div className="px-10 max-w-[785px]">
             <img src="/picture.png" alt="Highrise" width={468} height={204} />
             <div className="space-y-[23px] flex flex-col justify-center mt-10 text-center text-white">
@@ -181,11 +181,11 @@ const Home: NextPage = () => {
 
       <div className="bg-[#191433] flex justify-center items-start flex-wrap space-y-[24px] pt-32">
         <div className="w-10/12 md:w-[665px]">
-          <div className="w-full text-custom-2 mb-12">
+          <div className="w-full text-custom-2 mb-12 text-center">
             Frequently Asked <br /> Questions
           </div>
 
-          <div className="divide-y divide-purple-border mb-6">
+          <div className="divide-y divide-purple-border mb-6 text-center">
             <AcilirKapanir
               title={"Is there a guaranteed mint allowlist?"}
               desc={
@@ -231,13 +231,12 @@ const Home: NextPage = () => {
           <div className="w-full md:w-[896px] px-10 max-w-4xl mx-auto pb-10">
             <fieldset className="text-center border-t border-purple-dark">
               <legend className="p-1.5">
-                <img src="/globe.svg" alt="" width={24} height={24} />
+                <img src="/logo-footer.png" alt="" width={24} height={24} />
               </legend>
             </fieldset>
 
-            <div className="flex flex-col md:flex-row justify-between">
+            <div className="flex flex-col md:flex-row justify-between mt-2">
               <div className="flex flex-col items-start space-y-[8px]">
-                <img src="/logo-footer.png" alt="" width={200} height={44} />
                 <span className="text-sm text-gray-500 font-[500] text-purple-dark">
                   © 2022 Penguin Holdings
                 </span>

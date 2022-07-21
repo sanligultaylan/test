@@ -51,6 +51,10 @@
   border-color: rgb(88 85 122 / var(--tw-border-opacity));
 }
 
+.text-logo {
+  color: #191433;
+}
+
 .text-purple-dark {
   --tw-text-opacity: 1;
   color: rgb(88 85 122 / var(--tw-text-opacity));

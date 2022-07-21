@@ -11,11 +11,11 @@ export const AcilirKapanir = ({
   return (
     <Disclosure>
       {({ open }) => (
-        <div className="py-[12px] space-y-[8px] text-lg">
-          <Disclosure.Button className="py-2 text-mint text-left w-full flex justify-between items-start font-bold">
+        <div className="py-[12px] space-y-[8px] text-lg text-center">
+          <Disclosure.Button className="py-2 text-mint text-center w-full flex justify-center items-start font-bold relative">
             {title}
 
-            <div className="text-2xl text-white font-normal">
+            <div className="text-2xl text-white font-normal w-3 text-center absolute right-0 top-0">
               {open ? "-" : "+"}
             </div>
           </Disclosure.Button>
